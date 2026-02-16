@@ -16,6 +16,6 @@ Tech Stack: Playwright, TypeScript, GitHub Actions, Allure/HTML Reports
 - Headless Execution: Optimized for Linux-based CI runners.
 
 📦 Getting Started
-npm install
-npx playwright install
-npx playwright test
+- npm install
+- npx playwright install
+- npx playwright test
