@@ -1,9 +1,21 @@
-## CI/CD
+🎭 Playwright E2E & API Automation Framework
+Author: Diego Grael
 
-This project uses GitHub Actions to automatically run Playwright end-to-end tests.
+Tech Stack: Playwright, TypeScript, GitHub Actions, Allure/HTML Reports
 
-- Tests run on every pull request
-- Tests also run on pushes to the `main` branch
-- CI pipeline installs dependencies, browsers, and executes the test suite
+🚀 Key Features
+- Page Object Model (POM): Scalable and maintainable architecture.
+- Hybrid Testing: Combines API requests with UI testing for faster state setup (e.g., bypassing login UI via API).
+- Parallel Execution: Configured for optimized test runs to reduce CI bottleneck.
+- Multi-Browser Support: Validated across Chromium, Firefox, and WebKit.
 
-This setup provides fast feedback and helps catch UI regressions early.
+⚙️ CI/CD Integration (GitHub Actions)
+- This project features a robust CI pipeline that ensures code quality before merging:
+- Automated Triggers: Runs on every push to main and all Pull Requests.
+- Artifact Management: Automatically saves Playwright Traces and HTML reports on failure for easy debugging.
+- Headless Execution: Optimized for Linux-based CI runners.
+
+📦 Getting Started
+npm install
+npx playwright install
+npx playwright test
